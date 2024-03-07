@@ -53,24 +53,6 @@
       "colors": ["Turquoise", "Indigo", "Slate"],
       "company": "InnovateTech",
       "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
-    },
-    {
-      "image": "https://static-01.daraz.com.np/p/5834269a285d2152ee8c9dd7037b88c2.jpg",
-      "name": "Product 7",
-      "price": 34.99,
-      "rating": "★★★★☆",
-      "colors": ["Brown", "Beige", "Khaki"],
-      "company": "FashionStyle Inc.",
-      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident."
-    },
-    {
-      "image": "https://example.com/item8.jpg",
-      "name": "Product 8",
-      "price": 44.99,
-      "rating": "★★★★☆",
-      "colors": ["Orange", "Teal", "Violet"],
-      "company": "TrendyGear",
-      "description": "Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
     }
   ]
 }

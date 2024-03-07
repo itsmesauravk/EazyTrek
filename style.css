@@ -20,7 +20,7 @@ body {
 
 }
 
-/* first section  */
+/* first section-------------------------------------------------------------------------------------------------------------------  */
 
 .home-div {
     width: 100%;
@@ -148,6 +148,7 @@ body {
     align-items: center;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
+    margin-bottom: 20px;
     gap: 2.5rem;
     transition: box-shadow 0.3s ease;
 }
@@ -157,7 +158,7 @@ body {
 
 .main-place-image img {
     width: 696px;
-    height: 560px;
+    height: auto;
     
 }
 
@@ -218,4 +219,76 @@ body {
     background-color: #393E46;
 }
 
+
+
+
+
+
+/* third section --------------------------------------------------------------------------------------------------- */
+.feature-products-container{
+    background-color:#EEEEEE ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-products-title{
+    margin-top: 5.5rem;
+    text-align: center;
+    color: #222831;
+    font-size: 48px;
+    font-weight: bold;
+    width: 75%;
+
+}
+
+
+
+.feature-products-cards{
+    width: 75%;
+    display: flex;
+    margin-top: 3rem;
+}
+
+
+
+.f-card {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.f-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 173, 181, 0.2); /* #00ADB5 converted to rgba */
+}
+
+.f-card-image img {
+    width: 300px;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.f-card-details {
+    padding: 15px;
+}
+
+#card-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #222831;
+}
+
+#card-description {
+    font-size: 16px;
+    margin-top: 8px;
+    color: #393E46;
+}
 

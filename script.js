@@ -40,3 +40,41 @@ const fetchData = async () => {
 }
 fetchData()
 
+
+// featured products js -------------------------------------------------------------------------
+const container = document.querySelector(".feature-products-cards")
+
+const featuredItems = async () => {
+  try {
+    const response = await fetch("./json/featuredProduct.json")
+    if (!response.ok) {
+      throw new Error("Network is not responding correctly")
+    }
+    const products = await response.json()
+    const featuredProducts = products.featuredProducts
+    showDataInCard(featuredProducts)
+  } catch (error) {
+    console.error("Error fetching or parsing data:", error)
+  }
+}
+
+featuredItems()
+
+// show data in card
+function showDataInCard(featuredProducts) {
+  container.innerHTML = ""
+  for (let i = 0; i < 4; i++) {
+    let product = featuredProducts[i]
+
+    container.innerHTML += `
+        <div class="f-card">
+          <div class="f-card-image">
+            <img src="${product.image}" alt="image" />
+          </div>
+          <div class="f-card-details">
+            <p id="card-name">${product.name}</p>
+            <p id="card-description">$${product.description}</p>
+          </div>
+        </div>`
+  }
+}
