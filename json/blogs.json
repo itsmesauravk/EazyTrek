@@ -1,0 +1,40 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "image": "https://static1.pocketlintimages.com/wordpress/wp-content/uploads/146898-phones-feature-the-best-apple-iphone-photos-ever-taken-image1-ydter7skel.jpg",
+      "title": "Keep Learning",
+      "writer": "John Doe",
+      "date": "2023-10-03",
+      "highlight": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vestibulum consectetur ante sit amet, ullamcorper feugiat..",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+    },
+    {
+      "id": 2,
+      "image": "https://i.pinimg.com/originals/6f/ef/3f/6fef3f83983376cc0a90a1f36f913ba4.jpg",
+      "title": "Don't be Shy",
+      "writer": "Sunny deol",
+      "date": "2023-09-28",
+      "highlight": "Vestibulum consectetur ante sit amet, ullamcorper feugiat.Sed dapibus egestas nunc, eget ultricies odio malesuada..",
+      "content": "Vestibulum consectetur ante sit amet, ullamcorper feugiat."
+    },
+    {
+      "id": 3,
+      "image": "https://www.southernliving.com/thmb/XOCPpFwcsQBZ7eYnSAD5h3NuALI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gettyimages-735896407-2000-50ed94160ae543f3af9b378b6ef0656c.jpg",
+      "title": "Life is Beautiful",
+      "writer": "David Johnson",
+      "date": "2023-09-25",
+      "highlight": "Sed dapibus egestas nunc, eget ultricies odio malesuada.Vestibulum consectetur ante sit amet, ullamcorper feugiat..",
+      "content": "Sed dapibus egestas nunc, eget ultricies odio malesuada."
+    },
+    {
+      "id": 4,
+      "image": "blog4.jpg",
+      "title": "Aenean Sodales Aliquet",
+      "writer": "Mary Williams",
+      "date": "2023-09-20",
+      "highlight": "Aenean sodales aliquet enim, in condimentum libero tincidunt...",
+      "content": "Aenean sodales aliquet enim, in condimentum libero tincidunt."
+    }
+  ]
+}

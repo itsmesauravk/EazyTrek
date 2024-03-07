@@ -1,0 +1,48 @@
+{
+  "trekkingPackages": [
+    {
+      "id": 1,
+      "name": "Mountain Adventure Trek",
+      "destination": "Himalayas, Nepal",
+      "duration": "10 days",
+      "difficulty": "Moderate",
+      "price": "$1,200 per person",
+      "rating": 4.8,
+      "description": "Explore the stunning Himalayan mountains on a 10-day trekking adventure. Witness breathtaking landscapes, visit remote villages, and experience the thrill of high-altitude trekking.",
+      "image": "https://imgmedia.lbb.in/media/2023/04/642e901c3f755b46b63c82f0_1680773148311.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jungle Safari Trek",
+      "destination": "Amazon Rainforest, Brazil",
+      "duration": "7 days",
+      "difficulty": "Easy",
+      "price": "$800 per person",
+      "rating": 4.5,
+      "description": "Embark on a 7-day jungle safari trek through the Amazon Rainforest in Brazil. Encounter diverse wildlife, explore lush forests, and camp under the canopy.",
+      "image": "https://alpineclubofhimalaya.com/wp-content/uploads/2019/02/hot-spring-trek-and-wildlife-safari-trek-1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Desert Expedition Trek",
+      "destination": "Sahara Desert, Morocco",
+      "duration": "14 days",
+      "difficulty": "Challenging",
+      "price": "$2,500 per person",
+      "rating": 4.9,
+      "description": "Experience the ultimate desert adventure with a 14-day trek through the Sahara Desert in Morocco. Traverse vast dunes, visit ancient oases, and sleep under the starry desert sky.",
+      "image": "https://www.charitychallenge.com/blog/wp-content/uploads/2018/10/CC-edited-1-11.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Alpine Explorer Trek",
+      "destination": "Swiss Alps, Switzerland",
+      "duration": "12 days",
+      "difficulty": "Challenging",
+      "price": "$2,800 per person",
+      "rating": 4.7,
+      "description": "Embark on a 12-day alpine adventure in the Swiss Alps. Hike through picturesque landscapes, summit stunning peaks, and enjoy breathtaking views of the Swiss countryside.",
+      "image": "https://1.bp.blogspot.com/-Xzf_DrQrpZg/XyzCKRDAQ6I/AAAAAAAEGNs/W4RkcsXwJuEwElbUcxmUbAsWFblnQp7OwCPcBGAsYHg/s4032/IMG_4511.JPG"
+    }
+  ]
+}

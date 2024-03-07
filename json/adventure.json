@@ -1,0 +1,64 @@
+{
+  "adventureIdeas": [
+    {
+      "id": 1,
+      "image": "https://media.nepaltrekadventures.com/uploads/img/bungee-banner.webp",
+      "name": "Bungee-Jumping",
+      "details": "Explore the wilderness on an exciting hiking adventure.",
+      "pricePerPerson": 30.99,
+      "restriction": "Moderate fitness level required",
+      "safety": "Guided tour with experienced guides",
+      "timeRequired": "4 hours",
+      "age": {
+        "min": 12,
+        "max": 60
+      },
+      "locations": ["Mountain Range A", "Forest Trail B"]
+    },
+    {
+      "id": 2,
+      "image": "https://www.kevinandamanda.com/wp-content/uploads/2021/12/G0056963-scaled.jpg",
+      "name": "Paragliding",
+      "details": "Discover the city's landmarks on a leisurely bike tour.",
+      "pricePerPerson": 24.99,
+      "restriction": "Easy biking trails",
+      "safety": "Helmet provided for all participants",
+      "timeRequired": "2 hours",
+      "age": {
+        "min": 10,
+        "max": 70
+      },
+      "locations": ["City Center"]
+    },
+    {
+      "id": 3,
+      "image": "https://cdn.britannica.com/39/76239-050-DE5FCF36/Climbers-side-Nepali-Mount-Everest.jpg",
+      "name": "Mountain Climbing",
+      "details": "Experience the thrill of white water rafting.",
+      "pricePerPerson": 45.99,
+      "restriction": "Previous rafting experience required",
+      "safety": "Professional guides and safety equipment provided",
+      "timeRequired": "5 hours",
+      "age": {
+        "min": 18,
+        "max": 55
+      },
+      "locations": ["River Rapids X"]
+    },
+    {
+      "id": 4,
+      "image": "https://www.wildwater-river.com/_ipx/w_3840,q_75/https%3A%2F%2Fcdn.sanity.io%2Fimages%2Faxbeklts%2Fproduction%2F9532f8c1a3cc870cfd07d2431fab8e6799c30ab7-3456x2304.jpg%3Fauto%3Dformat?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Faxbeklts%2Fproduction%2F9532f8c1a3cc870cfd07d2431fab8e6799c30ab7-3456x2304.jpg%3Fauto%3Dformat&w=3840&q=75",
+      "name": "River Rafting",
+      "details": "Go on a safari and spot exotic wildlife in their natural habitat.",
+      "pricePerPerson": 55.99,
+      "restriction": "None",
+      "safety": "Experienced safari guides",
+      "timeRequired": "6 hours",
+      "age": {
+        "min": 5,
+        "max": 80
+      },
+      "locations": ["National Park Y"]
+    }
+  ]
+}

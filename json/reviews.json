@@ -1,0 +1,58 @@
+{
+  "clientReviews": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "job": "Software Engineer",
+      "date": "2023-03-15",
+      "rating": 4.8,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Ranbir_Kapoor_promoting_Brahmastra.jpg",
+      "comment": "I had an amazing experience with the trekking package. The views were breathtaking, and the guides were knowledgeable. Highly recommended!"
+    },
+    {
+      "id": 2,
+      "name": "Alice Smith",
+      "job": "Marketing Specialist",
+      "date": "2023-04-02",
+      "rating": 4.5,
+      "image": "https://www.bollywoodhungama.com/wp-content/uploads/2021/09/a1c30f8d-2f66-4dca-8bf0-20d7412629a0.jpg",
+      "comment": "The jungle safari was a fantastic adventure. We spotted so much wildlife and enjoyed the pristine beauty of the Amazon Rainforest."
+    },
+    {
+      "id": 3,
+      "name": "Emily Brown",
+      "job": "Travel Blogger",
+      "date": "2023-04-18",
+      "rating": 4.9,
+      "image": "https://m.media-amazon.com/images/M/MV5BODI4NDY1NzkyM15BMl5BanBnXkFtZTgwNzM3MDM0OTE@._V1_.jpg",
+      "comment": "The desert expedition in Morocco was a life-changing experience. The vast Sahara and the starry nights were unforgettable."
+    },
+    {
+      "id": 4,
+      "name": "David Johnson",
+      "job": "Adventure Photographer",
+      "date": "2023-05-10",
+      "rating": 4.7,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%2846806576944%29_%28cropped%29.jpg/1200px-Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%2846806576944%29_%28cropped%29.jpg",
+      "comment": "The alpine trek in the Swiss Alps was challenging but incredibly rewarding. The scenery was out of this world."
+    },
+    {
+      "id": 5,
+      "name": "Sophia Lee",
+      "job": "Graphic Designer",
+      "date": "2023-06-02",
+      "rating": 4.6,
+      "image": "https://media.npr.org/assets/img/2020/01/24/gettyimages-1189825084-e2b9bfb8edf5bb19c84a7dd31d4afe1a503bd494.jpg",
+      "comment": "The coastal trail in Cinque Terre was simply magical. Each village had its own charm, and the hiking was superb."
+    },
+    {
+      "id": 6,
+      "name": "Carlos Ramirez",
+      "job": "Historian",
+      "date": "2023-06-22",
+      "rating": 4.9,
+      "image": "https://www.masala.com/cloud/2021/07/25/GnhvkaYw-ayesha-t.jpg.jpg",
+      "comment": "The Inca Trail to Machu Picchu was a dream come true. The history and culture we experienced along the way were incredible."
+    }
+  ]
+}

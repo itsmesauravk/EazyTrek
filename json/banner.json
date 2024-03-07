@@ -1,0 +1,44 @@
+{
+  "banners": [
+    {
+      "id": 1,
+      "image": "https://www.poorinaprivateplane.com/wp-content/uploads/2020/05/Beautiful-Places-Glacier-National-Park-Montana-The-Mandagies.jpg",
+      "details": {
+        "heading": "Nature",
+        "subheading": "Nature, in the broadest sense, is the physical world or universe. 'Nature' can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science. Although humans are part of nature, human activity is often understood as a separate category from other natural phenomena"
+      }
+    },
+    {
+      "id": 2,
+      "image": "https://mymodernmet.com/wp/wp-content/uploads/archive/PpMAlXy5222zNQLlTlbG_1082105462.jpeg",
+      "details": {
+        "heading": "Amazing wildlife",
+        "subheading": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibusperspiciatis ducimus explicabo ut, dolore accusamus non pariatur harumvel, necessitatibus soluta quidem neque aspernatur, nisi nam beatae nulladoloremque."
+      }
+    },
+    {
+      "id": 3,
+      "image": "https://www.telegraph.co.uk/content/dam/travel/2022/05/25/TELEMMGLPICT000297198535_trans_NvBQzQNjv4BqRo0U4xU-30oDveS4pXV-Vv4Xpit_DMGvdp2n7FDd82k.jpeg",
+      "details": {
+        "heading": "Delicious cuisine",
+        "subheading": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibusperspiciatis ducimus explicabo ut, dolore accusamus non pariatur harumvel, necessitatibus soluta quidem neque aspernatur, nisi nam beatae nulladoloremque."
+      }
+    },
+    {
+      "id": 4,
+      "image": "https://www.wallpaperflare.com/static/400/626/479/landscape-mountains-paragliding-sport-wallpaper-preview.jpg",
+      "details": {
+        "heading": "Exciting adventures",
+        "subheading": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibusperspiciatis ducimus explicabo ut, dolore accusamus non pariatur harumvel, necessitatibus soluta quidem neque aspernatur, nisi nam beatae nulladoloremque."
+      }
+    },
+    {
+      "id": 5,
+      "image": "https://media.gq.com/photos/618ecc5416d317dbdd5f619d/16:9/w_2560%2Cc_limit/jimmy-chin-gq-men-of-the-year-2021-01-lede.jpg",
+      "details": {
+        "heading": "Fascinating discoveries",
+        "subheading": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure temporibusperspiciatis ducimus explicabo ut, dolore accusamus non pariatur harumvel, necessitatibus soluta quidem neque aspernatur, nisi nam beatae nulladoloremque."
+      }
+    }
+  ]
+}

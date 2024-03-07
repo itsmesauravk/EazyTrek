@@ -1,0 +1,40 @@
+{
+  "offers": [
+    {
+      "id": 1,
+      "icon": "https://www.svgrepo.com/show/532036/cloud-rain-alt.svg",
+      "name": "Complete Guide",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi esse qui aut?"
+    },
+    {
+      "id": 2,
+      "icon": "https://www.svgrepo.com/show/38705/location-pin.svg",
+      "name": "Costum Packages",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi esse qui aut?"
+    },
+    {
+      "id": 3,
+      "icon": "https://www.svgrepo.com/show/64170/bag-for-travel.svg",
+      "name": "Family Trip",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi esse qui aut?"
+    },
+    {
+      "id": 4,
+      "icon": "https://www.svgrepo.com/show/173031/yacht.svg",
+      "name": "Trained Guides",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi esse qui aut?"
+    },
+    {
+      "id": 5,
+      "icon": "https://www.svgrepo.com/show/532035/cloud-bolt.svg",
+      "name": "Adventure Trial",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi esse qui aut?"
+    },
+    {
+      "id": 6,
+      "icon": "https://www.svgrepo.com/show/45931/bus.svg",
+      "name": "Various Adventure",
+      "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi esse qui aut?"
+    }
+  ]
+}

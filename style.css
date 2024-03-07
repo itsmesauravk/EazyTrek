@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.main-container { 
+    color: #222831;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.theme-color{
+    color: #00ADB5;
+
+}
+
+/* first section  */
+
+.home-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+    
+
+}
+.home-contents{
+    width: 75%;
+    display: flex;
+    height: 80vh;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-details {
+    flex-grow: 1;
+}
+
+.home-details-title {
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+    color: #00ADB5;
+    
+}
+
+.home-details-description {
+    font-size: 16px;
+    width: 540px;
+}
+
+.home-image img {
+    max-width: 650px;
+    height: 550px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* popular places  */
+
+.popular-places {
+    margin-top: 5.5rem;
+    text-align: center;
+    color: #222831;
+    width: 75%;
+
+}
+
+.popular-places-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.theme-color {
+    color: #00ADB5;
+}
+
+.popular-places p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.popular-places-show {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+.popular-places-show-place{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.package-card { 
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    transition: box-shadow 0.3s ease;
+}
+.package-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 173, 181, 0.4);
+}
+
+.p-image-div img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.p-extra {
+    padding: 15px;
+}
+
+.p-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222831;
+}
+
+.p-short-details {
+    font-size: 14px;
+    color: #393E46;
+    margin-top: 8px;
+}
+
+
+.popular-place-main-show{
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.main-place-card {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    gap: 2.5rem;
+    transition: box-shadow 0.3s ease;
+}
+.main-place-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 173, 181, 0.4);
+}
+
+.main-place-image img {
+    width: 696px;
+    height: 560px;
+    
+}
+
+.main-place-description {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-place-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.m-place-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 3rem;
+}
+
+.m-place-link a {
+    text-decoration: none;
+    color: #222831;
+    border: 1px solid #00ADB5;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.m-place-link a:hover {
+    background-color: #00ADB5;
+    color: #393E46;
+}
+
+.m-place-short-overview {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.m-place-read-more-btn {
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.m-place-read-more-btn:hover {
+    background-color: #393E46;
+}
+
+
