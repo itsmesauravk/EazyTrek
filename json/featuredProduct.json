@@ -37,8 +37,8 @@
       "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
-      "image": "https://example.com/item5.jpg",
-      "name": "Product 5",
+      "image": "https://static-01.daraz.com.np/p/5834269a285d2152ee8c9dd7037b88c2.jpg",
+      "name": "Grip Boots",
       "price": 24.99,
       "rating": "★★★☆☆",
       "colors": ["Cyan", "Magenta", "Lime"],
@@ -46,13 +46,31 @@
       "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
-      "image": "https://example.com/item6.jpg",
-      "name": "Product 6",
+      "image": "https://m.media-amazon.com/images/I/71JCNpuYsGL.jpg",
+      "name": "Tent Roap",
       "price": 59.99,
       "rating": "★★★★★",
       "colors": ["Turquoise", "Indigo", "Slate"],
       "company": "InnovateTech",
       "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    },
+    {
+      "image": "https://static-01.daraz.com.np/p/5834269a285d2152ee8c9dd7037b88c2.jpg",
+      "name": "Product 7",
+      "price": 34.99,
+      "rating": "★★★★☆",
+      "colors": ["Brown", "Beige", "Khaki"],
+      "company": "FashionStyle Inc.",
+      "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident."
+    },
+    {
+      "image": "https://example.com/item8.jpg",
+      "name": "Product 8",
+      "price": 44.99,
+      "rating": "★★★★☆",
+      "colors": ["Orange", "Teal", "Violet"],
+      "company": "TrendyGear",
+      "description": "Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
     }
   ]
 }

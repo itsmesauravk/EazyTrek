@@ -63,7 +63,7 @@ featuredItems()
 // show data in card
 function showDataInCard(featuredProducts) {
   container.innerHTML = ""
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 6; i++) {
     let product = featuredProducts[i]
 
     container.innerHTML += `
@@ -73,7 +73,7 @@ function showDataInCard(featuredProducts) {
           </div>
           <div class="f-card-details">
             <p id="card-name">${product.name}</p>
-            <p id="card-description">$${product.description}</p>
+            <p id="card-description">${product.description}</p>
           </div>
         </div>`
   }
