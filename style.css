@@ -371,14 +371,14 @@ body {
 
 
 .user-description {
-    margin-top: 8rem;
+    margin-top: 3rem;
     text-align: justify;
     /* background-color: purple; */
 }
 .user-about-title{
     font-size: 22px ;
-    border-top-right-radius: 6px;
-    border-top-left-radius: 6px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
     font-weight: bold;
     color: #00ADB5;
     padding: 10px;
