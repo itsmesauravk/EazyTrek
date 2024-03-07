@@ -307,3 +307,118 @@ body {
     color: #393E46;
 }
 
+.feature-porduct-button {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.feature-porduct-button-btn 
+{
+    width: 160px;
+    height: 50px;
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.feature-porduct-button-btn:hover {
+    background-color: #393E46;
+    color: #00ADB5;
+}
+
+
+
+
+
+/* fourth section --------------------------------------------------------------------------------------------------- */
+
+.user-profile-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.user-profile {
+    display: flex;
+    gap: 2rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.user-profile-left {
+    flex-grow: 1;
+    padding-right: 20px;
+}
+
+.user-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #222831;
+}
+
+
+.user-description {
+    margin-top: 8rem;
+    text-align: justify;
+    /* background-color: purple; */
+}
+.user-about-title{
+    font-size: 22px ;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    font-weight: bold;
+    color: #00ADB5;
+    padding: 10px;
+    background-color: #EEEEEE;
+
+}
+.user-about-desc {
+    padding: 10px;
+    font-size: 16px;
+    color: #393E46;
+}
+
+.read-more,
+.social-link {
+    display: block;
+    width: 100%;
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    border: none;
+    padding: 10px 15px;
+    
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.read-more:hover,
+.social-link:hover {
+    background-color: #393E46;
+}
+
+.user-profile-right {
+    flex-shrink: 0;
+    width: 55%;
+}
+
+.user-profile-image img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
