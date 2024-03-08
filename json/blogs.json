@@ -2,29 +2,29 @@
   "blogs": [
     {
       "id": 1,
-      "image": "https://static1.pocketlintimages.com/wordpress/wp-content/uploads/146898-phones-feature-the-best-apple-iphone-photos-ever-taken-image1-ydter7skel.jpg",
+      "image": "https://images.pexels.com/photos/3217911/pexels-photo-3217911.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "title": "Keep Learning",
       "writer": "John Doe",
       "date": "2023-10-03",
-      "highlight": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vestibulum consectetur ante sit amet, ullamcorper feugiat..",
+      "highlight": "Embarking on a journey is not just about traversing geographical landscapes; it's a profound exploration of cultures, traditions, and the rich tapestry of life...",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
     },
     {
       "id": 2,
-      "image": "https://i.pinimg.com/originals/6f/ef/3f/6fef3f83983376cc0a90a1f36f913ba4.jpg",
+      "image": "https://d39l2hkdp2esp1.cloudfront.net/img/photo/145948/145948_00_2x.jpg?20180606134603",
       "title": "Don't be Shy",
-      "writer": "Sunny deol",
+      "writer": "Sam Altman",
       "date": "2023-09-28",
-      "highlight": "Vestibulum consectetur ante sit amet, ullamcorper feugiat.Sed dapibus egestas nunc, eget ultricies odio malesuada..",
+      "highlight": "Immersing oneself in the local way of life, whether it's savoring the aromas of a bustling market or participating in age-old customs, brings a deeper understanding of the world's diversity..",
       "content": "Vestibulum consectetur ante sit amet, ullamcorper feugiat."
     },
     {
       "id": 3,
-      "image": "https://www.southernliving.com/thmb/XOCPpFwcsQBZ7eYnSAD5h3NuALI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gettyimages-735896407-2000-50ed94160ae543f3af9b378b6ef0656c.jpg",
+      "image": "https://www.treebo.com/blog/wp-content/uploads/2018/01/Active-Traveler.jpg",
       "title": "Life is Beautiful",
-      "writer": "David Johnson",
+      "writer": "Lasta Smith",
       "date": "2023-09-25",
-      "highlight": "Sed dapibus egestas nunc, eget ultricies odio malesuada.Vestibulum consectetur ante sit amet, ullamcorper feugiat..",
+      "highlight": "Traveling unfolds a myriad of unique experiences, from discovering hidden gems off the beaten path to indulging in adrenaline-pumping adventures like hiking through rugged terrains... ",
       "content": "Sed dapibus egestas nunc, eget ultricies odio malesuada."
     },
     {

@@ -78,3 +78,44 @@ function showDataInCard(featuredProducts) {
         </div>`
   }
 }
+
+
+// blogs ------------------------------------------------------------------------------------
+const blogContainer = document.querySelector(".user-blogs")
+
+const getAllBlogs = async () => {
+  const allBlogs = await fetch("./json/blogs.json")
+  const getBlogs = await allBlogs.json()
+  const displayBlogs = getBlogs.blogs
+  showBlogs(displayBlogs)
+}
+getAllBlogs()
+
+function showBlogs(displayBlogs) {
+  blogContainer.innerHTML = ""
+  for (let i = 0; i < 3; i++) {
+    const blog = displayBlogs[i]
+    blogContainer.innerHTML += `
+        <div class="blog-card">
+          <div class="image-box">
+            <img
+              src="${blog.image}"
+              alt="image"
+            />
+          </div>
+          <div class="blog-details">
+            <div class="blog-username">
+              ${blog.writer}
+            </div>
+            <div class="blog-date-post">
+              ${blog.date}              
+            </div>
+            <div class="extra-details">
+              ${blog.highlight}
+            </div> 
+          </div>
+        </div>
+        `
+  }
+}
+
