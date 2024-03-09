@@ -591,6 +591,7 @@ footer {
     background-color:#EEEEEE;
     color: #222831;
     width: 100%;
+    padding-top: 2rem;
     display:flex ;
     justify-content: center;
     align-items: center;
@@ -613,7 +614,8 @@ footer {
 }
 
 .first-logo img {
-    max-width: 100%;
+    /* max-width: 100%; */
+    width: 90px;
 }
 
 .first-description p {
@@ -624,13 +626,17 @@ footer {
 .address,
 .phone,
 .email {
-    margin: 10px 0;
+    margin: 4px 0;
 }
 
 .footer-link-title {
-    font-size: 18px;
+    font-size: 20px;
+    height: 90px;
+    display: flex;
+    align-items: center;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    
 }
 
 .footer-links a {
@@ -658,18 +664,23 @@ footer {
 
 .fourth-form {
     display: flex;
-    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    
 }
 
 .fourth-form input {
     padding: 8px;
-    margin-bottom: 8px;
+    border-radius: 6px;
+    border: none;
 }
 
 .fourth-form button {
     padding: 10px;
     background-color: #00ADB5;
     color: #EEEEEE;
+    font-weight: bold;
+    border-radius: 6px;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
