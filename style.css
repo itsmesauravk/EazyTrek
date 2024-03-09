@@ -640,15 +640,46 @@ footer {
 }
 
 .footer-links a {
-    display: block;
+    position: relative;
+    display: flex;
+    width: fit-content;
     color: #393E46;
     text-decoration: none;
     margin-bottom: 5px;
+    transition: color 0.3s;
+}
+
+.footer-links a::before,
+.footer-links a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    background-color: #00ADB5; 
+    transition: width 0.3s ease;
+}
+
+.footer-links a::before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-links a::after {
+    right: 50%;
+    transform: translateX(50%);
 }
 
 .footer-links a:hover {
-    color: #00ADB5;
+    color: #00ADB5; 
 }
+
+.footer-links a:hover::before,
+.footer-links a:hover::after {
+    width: 80%; 
+}
+
+
 
 .fourth-title {
     font-size: 18px;
