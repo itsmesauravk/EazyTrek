@@ -122,7 +122,7 @@ function showBlogs(displayBlogs) {
 
 
 // clientReview-----------------------------------------------------------------------------------
-let index = 0;
+
 const displayReviews = async (index) => {
   const reviews = await fetch("./json/reviews.json")
   const allReviews = await reviews.json()
@@ -185,7 +185,15 @@ const displayReviews = async (index) => {
   }
 
 
-displayReviews(index)
+let currentIndex = 0;
+
+const intervalId = setInterval(() => {
+    displayReviews(currentIndex);
+    
+    currentIndex = (currentIndex + 1) % reviews.length;
+}, 3000);
+
+intervalId();
 
 
 // clientReview-----------------------------------------------------------------------------------

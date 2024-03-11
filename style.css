@@ -919,6 +919,15 @@ footer {
         font-size: 22px;
     }
    /* fifth section (user reviews) --------------------------------------------------------------------------------------------------- */  
+    .user-review-container {
+        height: 60vh;
+
+    }
+
+    .review-card-first, .review-card-third {
+        width: 400px;
+        height: 220px;
+    }
 
     
    /* sixth section (photo videos) ---------------------------------------------------------- */
@@ -1092,7 +1101,34 @@ footer {
             width: 360px;
         }
     /* fifth section (user reviews) --------------------------------------------------------------------------------------------------- */  
+    .user-review-container {
+        height: 80vh;
 
+    }
+    .review-card-second{
+        width: 350px;
+        height: 280px;
+    }
+
+    .review-card-first, .review-card-third {
+        display: none;
+        width: 200px;
+        height: 220px;
+    }
+
+    .review-img-second{
+        background-color: red;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+    }
+    .review-img-first, .review-img-third{
+        background-color: green;
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+    
         
     /* sixth section (photo videos) ---------------------------------------------------------- */
 
