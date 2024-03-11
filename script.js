@@ -119,3 +119,123 @@ function showBlogs(displayBlogs) {
   }
 }
 
+
+
+// clientReview-----------------------------------------------------------------------------------
+
+// const displayReviews = async () => {
+//   const reviews = await fetch("./json/reviews.json")
+//   const allReviews = await reviews.json()
+//   const clientReviews = allReviews.clientReviews
+//   const swiperWrapper = document.querySelector(".user-reviews-swiper")
+//   swiperWrapper.innerHTML = ""
+//   console.log(clientReviews)
+
+
+//   for (let i = 0; i < clientReviews.length; i++) {
+//     const review = clientReviews[i]
+//     const backgroundColor = i % 2 === 0 ? "#ADC4CE" : "#C4DFDF"
+
+//     swiperWrapper.innerHTML += `
+//         <div class="swiper-slide"> 
+//           <div class="cr-card">
+//             <div class="cr-review" style="background-color: ${backgroundColor};">
+//               <p>${review.comment}</p>
+//             </div>
+//             <div class="cr-details">
+//               <div class="cr-userImage">
+//                 <img src="${review.image}" alt="cat" />
+//               </div>
+//               <div class="cr-userDetails">
+//                 <h2>${review.name}</h2>
+//                 <h3>${review.job}</h3>
+//               </div>
+//             </div>
+//             <div class="cr-arrow-div" style="background-color: ${backgroundColor}"></div>
+//           </div>
+//         </div>
+//       `
+//   }
+
+
+//  // Initialize Swiper after adding all review cards
+//  const swiperReview = new Swiper(".reviews-swiper", {
+//   slidesPerView: 3,
+//   loop: true,
+//   spaceBetween: 10,
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+//   autoplay: {
+//     delay: 3000,
+//     disableOnInteraction: false,
+//     pauseOnMouseEnter: true,
+//   },
+// })
+// }
+// // Call displayReviews to load reviews and initialize Swiper
+// displayReviews()
+
+
+const displayReviews = async () => {
+  const reviews = await fetch("./json/reviews.json");
+  const allReviews = await reviews.json();
+  const clientReviews = allReviews.clientReviews;
+  const swiperWrapper = document.querySelector(".user-reviews-swiper");
+  swiperWrapper.innerHTML = "";
+
+  for (let i = 0; i < clientReviews.length; i++) {
+    const review = clientReviews[i];
+    const backgroundColor = i % 2 === 0 ? "#ADC4CE" : "#C4DFDF";
+
+    swiperWrapper.innerHTML += `
+        <div class="swiper-slide"> 
+          <div class="cr-card">
+            <div class="cr-review" style="background-color: ${backgroundColor};">
+              <p>${review.comment}</p>
+            </div>
+            <div class="cr-details">
+              <div class="cr-userImage">
+                <img src="${review.image}" alt="user" />
+              </div>
+              <div class="cr-userDetails">
+                <h2>${review.name}</h2>
+                <h3>${review.job}</h3>
+              </div>
+            </div>
+            <div class="cr-arrow-div" style="background-color: ${backgroundColor}"></div>
+          </div>
+        </div>
+      `;
+  }
+
+  const swiperReview = new Swiper(".reviews-swiper", {
+    slidesPerView: 3,
+    loop: true,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+    },
+    on: {
+      init: function () {
+        const circleImages = document.querySelectorAll(".circle-image");
+
+        circleImages.forEach((circle, index) => {
+          circle.addEventListener("click", () => {
+            swiperReview.slideTo(index);
+          });
+        });
+      },
+    },
+  });
+};
+
+displayReviews();
+
