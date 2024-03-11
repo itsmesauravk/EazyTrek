@@ -186,6 +186,7 @@ const displayReviews = async (index) => {
 
 
 let currentIndex = 0;
+displayReviews(currentIndex);
 
 const intervalId = setInterval(() => {
     displayReviews(currentIndex);
@@ -193,7 +194,7 @@ const intervalId = setInterval(() => {
     currentIndex = (currentIndex + 1) % reviews.length;
 }, 3000);
 
-intervalId();
+
 
 
 // clientReview-----------------------------------------------------------------------------------
