@@ -122,120 +122,72 @@ function showBlogs(displayBlogs) {
 
 
 // clientReview-----------------------------------------------------------------------------------
-
-// const displayReviews = async () => {
-//   const reviews = await fetch("./json/reviews.json")
-//   const allReviews = await reviews.json()
-//   const clientReviews = allReviews.clientReviews
-//   const swiperWrapper = document.querySelector(".user-reviews-swiper")
-//   swiperWrapper.innerHTML = ""
-//   console.log(clientReviews)
-
-
-//   for (let i = 0; i < clientReviews.length; i++) {
-//     const review = clientReviews[i]
-//     const backgroundColor = i % 2 === 0 ? "#ADC4CE" : "#C4DFDF"
-
-//     swiperWrapper.innerHTML += `
-//         <div class="swiper-slide"> 
-//           <div class="cr-card">
-//             <div class="cr-review" style="background-color: ${backgroundColor};">
-//               <p>${review.comment}</p>
-//             </div>
-//             <div class="cr-details">
-//               <div class="cr-userImage">
-//                 <img src="${review.image}" alt="cat" />
-//               </div>
-//               <div class="cr-userDetails">
-//                 <h2>${review.name}</h2>
-//                 <h3>${review.job}</h3>
-//               </div>
-//             </div>
-//             <div class="cr-arrow-div" style="background-color: ${backgroundColor}"></div>
-//           </div>
-//         </div>
-//       `
-//   }
+let index = 0;
+const displayReviews = async (index) => {
+  const reviews = await fetch("./json/reviews.json")
+  const allReviews = await reviews.json()
+  const displayReviews = allReviews.clientReviews
+  const reviewCards = document.querySelector(".user-review")
+  console.log(displayReviews)
+  reviewCards.innerHTML = ""
 
 
-//  // Initialize Swiper after adding all review cards
-//  const swiperReview = new Swiper(".reviews-swiper", {
-//   slidesPerView: 3,
-//   loop: true,
-//   spaceBetween: 10,
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-//   autoplay: {
-//     delay: 3000,
-//     disableOnInteraction: false,
-//     pauseOnMouseEnter: true,
-//   },
-// })
-// }
-// // Call displayReviews to load reviews and initialize Swiper
-// displayReviews()
 
-
-const displayReviews = async () => {
-  const reviews = await fetch("./json/reviews.json");
-  const allReviews = await reviews.json();
-  const clientReviews = allReviews.clientReviews;
-  const swiperWrapper = document.querySelector(".user-reviews-swiper");
-  swiperWrapper.innerHTML = "";
-
-  for (let i = 0; i < clientReviews.length; i++) {
-    const review = clientReviews[i];
-    const backgroundColor = i % 2 === 0 ? "#ADC4CE" : "#C4DFDF";
-
-    swiperWrapper.innerHTML += `
-        <div class="swiper-slide"> 
-          <div class="cr-card">
-            <div class="cr-review" style="background-color: ${backgroundColor};">
-              <p>${review.comment}</p>
+  reviewCards.innerHTML += `
+      <div class="user-review-comments">
+        <div class="review-card-first review-card">
+            <div class="review-desc">
+                ${displayReviews[index].comment}
             </div>
-            <div class="cr-details">
-              <div class="cr-userImage">
-                <img src="${review.image}" alt="user" />
-              </div>
-              <div class="cr-userDetails">
-                <h2>${review.name}</h2>
-                <h3>${review.job}</h3>
-              </div>
+            <div class="review-user">
+                ${displayReviews[index].name}
             </div>
-            <div class="cr-arrow-div" style="background-color: ${backgroundColor}"></div>
-          </div>
+            <div class="review-role">
+                ${displayReviews[index].job}
+            </div>
         </div>
-      `;
+        <div class="review-card-second review-card">
+            <div class="review-desc">
+                ${displayReviews[index + 1].comment}
+            </div>
+            <div class="review-user">
+                ${displayReviews[index + 1].name}
+            </div>
+            <div class="review-role">
+                ${displayReviews[index + 1].job}
+            </div>
+        </div>
+        <div class="review-card-third review-card">
+            <div class="review-desc">
+                ${displayReviews[index + 2].comment}
+            </div>
+            <div class="review-user">
+                ${displayReviews[index + 2].name}
+            </div>
+            <div class="review-role">
+                ${displayReviews[index + 2].job}
+            </div>
+        </div>
+      </div>
+
+      <div class="review-card-img">
+        <div class="review-img-first review-img">
+            <img src="${displayReviews[index].image}" alt="image" />
+        </div>
+        <div class="review-img-second review-img">
+            <img src="${displayReviews[index + 1].image}" alt="image" />
+        </div>
+        <div class="review-img-third review-img">
+            <img src="${displayReviews[index + 2].image}" alt="image" />
+        </div>
+    </div>
+      `
   }
 
-  const swiperReview = new Swiper(".reviews-swiper", {
-    slidesPerView: 3,
-    loop: true,
-    spaceBetween: 10,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-      pauseOnMouseEnter: true,
-    },
-    on: {
-      init: function () {
-        const circleImages = document.querySelectorAll(".circle-image");
 
-        circleImages.forEach((circle, index) => {
-          circle.addEventListener("click", () => {
-            swiperReview.slideTo(index);
-          });
-        });
-      },
-    },
-  });
-};
+displayReviews(index)
 
-displayReviews();
+
+// clientReview-----------------------------------------------------------------------------------
+ 
 

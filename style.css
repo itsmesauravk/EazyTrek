@@ -423,84 +423,128 @@ body {
 }
 
 
-/* fifth section --------------------------------------------------------------------------------------------------- */
+/* fifth section (user review) --------------------------------------------------------------------------------------------------- */
 
-body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-  }
-  
-  .swiper-container {
-    width: 80%;
-    margin: 20px auto;
-  }
-  
-  .cr-card {
+
+.user-review-container {
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+
+    height: 60vh;
+    background-color: #ddd;
+    width: 100%;
+
+}
+.user-review{
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .cr-review {
-    padding: 15px;
-  }
-  
-  .cr-details {
-    display: flex;
     align-items: center;
-    padding: 10px 15px;
-  }
-  
-  .cr-userImage img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  .cr-arrow-div {
-    height: 10px;
-  }
-  
-  .circle-images {
+}
+.user-review-title{
+    margin-top: 3rem;
+    font-size: 48px;
+    font-weight: bold;
+    color: #222831;
+}
+
+.user-review-comments {
     display: flex;
     justify-content: center;
-    margin-top: 15px;
-  }
-  
-  .circle-image {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin: 0 10px;
-    overflow: hidden;
-    cursor: pointer;
-  }
-  
-  .main-user img {
-    border: 2px solid #fff;
-  }
-  
-  .swiper-button-next,
-  .swiper-button-prev {
-    font-size: 18px;
-    color: #333;
-  }
-  
-  .swiper-button-next,
-  .swiper-button-prev,
-  .swiper-container {
+    align-items: center;
+}
+
+.review-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin: 0 20px;
+    
+}
+.review-user{
+    font-weight: bold;
+}
+.review-role{
+    color: #393E46;
+}
+.review-card-second{
+    width: 600px;
+    height: 280px;
+    z-index: 10;
+}
+.review-card-first, .review-card-third {
+    width: 600px;
+    height: 220px;
+    z-index: 1;
+    filter: blur(2px);
+}
+.review-card-first{
+    margin-right: -18rem;
+}
+.review-card-third{
+    margin-left: -18rem;
+}
+
+.review-card-second {
+    z-index: 10; 
+}
+
+.review-desc {
     padding: 20px;
-  }
-  
+    text-align:center;
+}
+
+
+.review-card-img{
+    display: flex;
+    align-items: center;
+    margin-top: -3.5rem;
+    gap: 1rem;
+    z-index: 20;
+}
+.review-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.review-img-second img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+
+}
+
+.review-img-second{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.review-img-first, .review-img-third{
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.review-img-first img, .review-img-third img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
 /* sixth section --------------------------------------------------------------------------------------------------- */
 
 .videos-pictures-container {
